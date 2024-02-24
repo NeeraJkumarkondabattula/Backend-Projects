@@ -83,12 +83,13 @@ Before accessing protected endpoints, users must obtain a JWT token by registeri
 - **Endpoint:** POST /cart/add
 - **Description:** Add a product to the user's cart.
 - **Request Body:**
-- ```json
-{
-  "userId": "user_id",
-  "productId": "product_id",
-  "quantity": 1
-}```
+ ```json
+  {
+    "userId": "user_id",
+    "productId": "product_id",
+    "quantity": 1
+  }
+```
 
 ### Response:
 - **Status:** 200 OK
