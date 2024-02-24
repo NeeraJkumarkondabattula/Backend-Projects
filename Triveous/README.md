@@ -20,7 +20,7 @@ Before accessing protected endpoints, users must obtain a JWT token by registeri
     "username": "john_doe",
     "email": "john@example.com",
     "password": "password123"
-  }
+  }```
   
 Absolutely! Below is the README file format you can use to paste into GitHub:
 
