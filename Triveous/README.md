@@ -54,10 +54,10 @@ Before accessing protected endpoints, users must obtain a JWT token by registeri
 - **Status:** `201 Created`
 - **Body:** `Newly created user object`
 ### Login User
-- **Endpoint: POST /login
+- **Endpoint: `POST /login`
 - **Description: Log in an existing user.
 - **Request Body:**
-```json
+- ```json
 {
   "email": "john@example.com",
   "password": "password123"
@@ -85,7 +85,7 @@ Before accessing protected endpoints, users must obtain a JWT token by registeri
 - **Endpoint:** POST /cart/add
 - **Description:** Add a product to the user's cart.
 - **Request Body:**
-```json
+- ```json
 {
   "userId": "user_id",
   "productId": "product_id",
@@ -106,7 +106,7 @@ Before accessing protected endpoints, users must obtain a JWT token by registeri
 - **Endpoint:** POST /orders/place
 - **Description:** Place an order with products from the user's cart.
 - **Request Body:**
-```json
+- ```json
 {
   "userId": "user_id",
   "products": [
