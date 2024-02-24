@@ -24,8 +24,6 @@ Before accessing protected endpoints, users must obtain a JWT token by registeri
   
 Absolutely! Below is the README file format you can use to paste into GitHub:
 
-markdown
-Copy code
 # E-commerce API Documentation
 
 This document outlines the endpoints available in the E-commerce API.
@@ -105,7 +103,8 @@ Before accessing protected endpoints, users must obtain a JWT token by registeri
 ### Place Order
 - **Endpoint:** POST /orders/place
 - **Description:** Place an order with products from the user's cart.
-- **Request Body:** ```json{
+- **Request Body:** ```json
+  {
   "userId": "user_id",
   "products": [
     {
