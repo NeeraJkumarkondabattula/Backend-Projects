@@ -47,7 +47,8 @@ Before accessing protected endpoints, users must obtain a JWT token by registeri
     "username": "john_doe",
     "email": "john@example.com",
     "password": "password123"
-  }```
+  }
+  ```
   
 ### Response:
 - **Status:** `201 Created`
@@ -60,7 +61,8 @@ Before accessing protected endpoints, users must obtain a JWT token by registeri
   {
     "email": "john@example.com",
     "password": "password123"
-  }```
+  }
+  ```
 
 ### Response:
 - **Status:** 200 OK
