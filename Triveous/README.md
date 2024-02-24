@@ -56,10 +56,10 @@ Before accessing protected endpoints, users must obtain a JWT token by registeri
 - **Description: Log in an existing user.
 - **Request Body:**
   ```json
-{
-  "email": "john@example.com",
-  "password": "password123"
-}```
+  {
+    "email": "john@example.com",
+    "password": "password123"
+  }```
 
 ### Response:
 - **Status:** 200 OK
