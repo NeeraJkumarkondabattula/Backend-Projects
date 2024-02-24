@@ -105,9 +105,7 @@ Before accessing protected endpoints, users must obtain a JWT token by registeri
 ### Place Order
 - **Endpoint:** POST /orders/place
 - **Description:** Place an order with products from the user's cart.
-- **Request Body:**
-- ```json
-{
+- **Request Body:** ```json{
   "userId": "user_id",
   "products": [
     {
