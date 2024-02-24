@@ -120,8 +120,8 @@ Before accessing protected endpoints, users must obtain a JWT token by registeri
       "productId": "another_product_id",
       "quantity": 2
     }
-  ]
-}```
+  ]}
+  ```
 
 ### Response:
 - **Status:** 200 OK
