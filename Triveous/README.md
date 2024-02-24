@@ -57,7 +57,7 @@ Before accessing protected endpoints, users must obtain a JWT token by registeri
 - **Endpoint: `POST /login`
 - **Description: Log in an existing user.
 - **Request Body:**
-- ```json
+  ```json
 {
   "email": "john@example.com",
   "password": "password123"
