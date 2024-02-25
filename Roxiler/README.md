@@ -95,4 +95,27 @@ This project involves developing a backend API to fetch data from a third-party 
 
 ```bash
 git clone <repository-url>
+```
+2. Install dependencies:
+bash
+Copy code
+npm install
+Set up MySQL database and configure database connection details in the .env file.
+
+Run the initialization script to set up the database:
+
+```bash
+npm run initialize-database
+```
+3. Start the server:
+```bash
+npm start
+```
+#### Access the APIs using the provided endpoints and parameters.
+#### Feel free to use this README.md file for your project. Let me know if you need any further assistance!
+
+### sql
+```bash
+You can copy and paste this content into your README.md file. Let me know if you need any further assistance!
+```
 
