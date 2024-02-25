@@ -61,7 +61,6 @@ This project involves developing a backend API to fetch data from a third-party 
   "0-100": 10,
   "101-200": 20,
   "201-300": 15,
-  ...
 }
 ```
 ## Pie Chart API
@@ -77,6 +76,5 @@ This project involves developing a backend API to fetch data from a third-party 
   "Category1": 20,
   "Category2": 15,
   "Category3": 10,
-  ...
 }
 ```
