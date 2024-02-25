@@ -48,3 +48,35 @@ This project involves developing a backend API to fetch data from a third-party 
     "totalNotSoldItems": 20
   }
 
+## Bar Chart API
+### Price Range Distribution for a Specific Month
+- **Endpoint:** `/price-distribution/:month`
+- **Method:** GET
+- **Description:** Provides the number of items in different price ranges for a specific month.
+- **Parameters:**
+`month`: Month to analyze (January to December).
+- **Expected Output:**
+```json
+{
+  "0-100": 10,
+  "101-200": 20,
+  "201-300": 15,
+  ...
+}
+```
+## Pie Chart API
+### Category Distribution for a Specific Month
+- **Endpoint:** `/category-distribution/:month`
+- **Method:** GET
+- **Description:** Provides unique categories and the number of items in each category for a specific month.
+- **Parameters:**
+`month`: Month to analyze (January to December).
+- **Expected Output:**
+```json
+{
+  "Category1": 20,
+  "Category2": 15,
+  "Category3": 10,
+  ...
+}
+```
