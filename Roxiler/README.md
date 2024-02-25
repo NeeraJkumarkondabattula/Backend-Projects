@@ -78,3 +78,21 @@ This project involves developing a backend API to fetch data from a third-party 
   "Category3": 10,
 }
 ```
+# Combined Data API
+
+## Combined Data from All APIs
+
+- **Endpoint:** `/combined-data/:month`
+- **Method:** GET
+- **Description:** Fetches data from all the above APIs for a specific month and combines the responses.
+- **Parameters:**
+  - `month`: Month to retrieve data (January to December).
+- **Expected Output:** Combined JSON data containing information from all APIs.
+
+## Installation and Setup
+
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+
